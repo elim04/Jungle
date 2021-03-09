@@ -31,7 +31,7 @@ RSpec.feature "UserLogins", type: :feature, js: true do
 
     expect(page).to have_text('Signed in as Emily')
 
-    
+
 
   end
 
