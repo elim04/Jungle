@@ -4,7 +4,7 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Implemented Features
 
-* Sold Out Badge - when product is sold out, a badge will be displayed 
+* Sold Out Badge - When product is sold out, a badge will be displayed 
 * Admin Categories - Admin users can create new categories and add new products to categories
 * User Authentication (with uniqueness validation) - As a visitor you can register as a user and login/logout, has_secure_password and bcyrpt gem are utilized
 * Order Details Page - Order page that contains all order items for user with their email and total amount due
@@ -42,7 +42,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screenshots of App in Action
 
-![Screenshot of Cart]()
-![Screenshot of Admin Products Page]()
-![Screenshot of Home Page]()
+![Screenshot of Cart](https://github.com/elim04/jungle-rails/blob/master/docs/cart.png)
+![Screenshot of Admin Products Page](https://github.com/elim04/jungle-rails/blob/master/docs/admin_product_page.png)
+![Screenshot of Home Page](https://github.com/elim04/jungle-rails/blob/master/docs/home_page.png)
 
