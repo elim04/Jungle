@@ -4,16 +4,18 @@
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
   </head>
   <body>
-    <h1>Hi there, <%= @user.name %></h1>
+    <h1>Hi there, <%= @order.email %></h1>
     <p>
-      You have successfully ordered up from Jungle,
+      You have successfully ordered from Jungle,
       your order number is: <%= @order.id %>.<br>
     </p>
+    <h2>Order List</h2>
     <p>
-    <% @order.line_items. each do |item| %>
+    <% @order.line_items.each do |item| %>
       <%= render 'item', product: item.product, quantity: item[:quantity].to_i %>
     <% end %>
     </p>
     <p>Thanks for purchasing from Jungle and have a great day!</p>
+    <p>Sincerely, The Jungle Fam</p>
   </body>
 </html>
